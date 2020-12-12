@@ -1,0 +1,10 @@
+<?php 
+$sum = 0;
+$nos = array(1,2,3,4,5,6,8,7);
+foreach ($nos as $value)
+    {
+        $sum = $sum + $value;
+    }
+    
+    echo $sum;
+?>
